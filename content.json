@@ -1,0 +1,15 @@
+{
+  "siteTitle": "Local Trails — Your Area",
+  "intro": "A small guide to nearby trails. Click a card for more details.",
+  "trails": [
+    {
+      "id": "oak-creek",
+      "name": "Oak Creek Loop",
+      "distance": "4.2 mi",
+      "difficulty": "Moderate",
+      "image": "images/oak-creek.jpg",
+      "summary": "Loop trail through oak forest with creek views and wildflowers.",
+      "details": "Parking at North lot. Dogs allowed on leash. No bikes on loop."
+    }
+  ]
+}
