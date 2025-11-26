@@ -1,28 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Local Trails</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Local Trails</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <h1 id="siteTitle">Local Trails</h1>
-    <p id="intro"></p>
-  </header>
+    <!-- HERO -->
+    <header class="hero fade-in">
+        <div class="pill">Local Trails</div>
+        <h1>Find Your Next Trail Adventure</h1>
+        <p class="subtitle">Explore curated routes, difficulty levels, mileage, and local highlights.</p>
 
-  <main id="main">
-    <section id="trail-list" class="trail-grid" aria-live="polite"></section>
-  </main>
+        <div class="cta-buttons">
+            <a href="#trails" class="btn btn-outline">Browse Trails</a>
+            <a href="#about" class="btn btn-solid">Start Exploring</a>
+        </div>
+    </header>
 
-  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="modal-content">
-      <button id="closeBtn" class="close">Close</button>
-      <div id="modal-body"></div>
-    </div>
-  </div>
+    <!-- TRAIL GRID -->
+    <section id="trails" class="container fade-in">
+        <h2 class="section-title">Featured Trails</h2>
+        <div id="trail-grid" class="trail-grid"></div>
+    </section>
 
-  <script src="script.js" type="module"></script>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Local Trail Explorer — Built with love for the outdoors.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
