@@ -1,15 +1,23 @@
-{
-  "siteTitle": "Local Trails — Your Area",
-  "intro": "A small guide to nearby trails. Click a card for more details.",
-  "trails": [
-    {
-      "id": "oak-creek",
-      "name": "Oak Creek Loop",
-      "distance": "4.2 mi",
-      "difficulty": "Moderate",
-      "image": "images/oak-creek.jpg",
-      "summary": "Loop trail through oak forest with creek views and wildflowers.",
-      "details": "Parking at North lot. Dogs allowed on leash. No bikes on loop."
-    }
-  ]
-}
+[
+  {
+    "name": "Pine Ridge Loop",
+    "distance": "3.4 miles",
+    "difficulty": "Moderate",
+    "image": "images/pine-ridge.jpg",
+    "description": "A shaded loop through tall pines with a scenic ridge overlook."
+  },
+  {
+    "name": "Maple Creek Trail",
+    "distance": "2.1 miles",
+    "difficulty": "Easy",
+    "image": "images/maple-creek.jpg",
+    "description": "Relaxed creekside trail with wooden bridges and abundant wildlife."
+  },
+  {
+    "name": "Bear Hollow Summit",
+    "distance": "6.8 miles",
+    "difficulty": "Hard",
+    "image": "images/bear-hollow.jpg",
+    "description": "Challenging incline ending with panoramic valley views."
+  }
+]
